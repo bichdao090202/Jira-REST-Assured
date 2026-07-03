@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "id": "https://docs.atlassian.com/jira/REST/schema/project-identity#",
+  "title": "Project Identity",
+  "type": "object",
+  "required": [
+    "self",
+    "id",
+    "key"
+  ],
+  "properties": {
+    "self": {
+      "type": "string",
+      "format": "uri"
+    },
+    "id": {
+      "type": "integer"
+    },
+    "key": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
