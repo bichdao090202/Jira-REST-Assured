@@ -1,13 +1,13 @@
 package io.github.bichdao090202.tests;
 
 import io.github.bichdao090202.clients.ProjectClient;
+import io.github.bichdao090202.utils.SchemaValidator;
 import io.restassured.response.Response;
 import io.github.bichdao090202.builders.ProjectDataBuilder;
 import io.github.bichdao090202.payloads.request.CreateProjectRequest;
 import io.github.bichdao090202.payloads.response.CreateProjectResponse;
 import io.github.bichdao090202.specs.ResponseSpecs;
 import io.github.bichdao090202.utils.Log;
-import io.github.bichdao090202.utils.SchemaValidator;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
